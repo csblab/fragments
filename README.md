@@ -5,8 +5,8 @@ Supplementary data to
 > [Kolodny R, Koehl P, Guibas L, Levitt M., *Small libraries of protein fragments model native protein structures accurately.* **J Mol Biol.** 2002 Oct 18;323(2):297-307](https://www.ncbi.nlm.nih.gov/pubmed/12381322)
 
 
-| Fragment Length | Library Size | Complexity [States/Residue]<sup>A</sup> | Average<sup>B</sup> Local cRMSD ($\mathring A$) | Average<sup>B</sup> Global cRMSD ($\mathring A$) | Data File | Angle Data File |
-|:---------------:|:------------:|:---------------------------------------:|:-----------------------------------------------:|:------------------------------------------------:| --------- | --------------- |
+| Fragment Length | Library Size | Complexity [States/Residue]<sup>A</sup> | Average<sup>B</sup> Local cRMSD (&#8491;) | Average<sup>B</sup> Global cRMSD (&#8491;) | Data File | Angle Data File |
+|:---------------:|:------------:|:---------------------------------------:|:-----------------------------------------:|:------------------------------------------:| --------- | --------------- |
 | 4 | 4   | 4     | 0.39 | 2.23 | [lib_4_z_4.txt](data/lib_4_z_4.txt)     | |
 | 4 | 6   | 6     | 0.35 | 1.64 | [lib_6_z_4.txt](data/lib_6_z_4.txt)     | |
 | 4 | 7   | 7     | 0.33 | 1.48 | [lib_7_z_4.txt](data/lib_7_z_4.txt)     | |
@@ -37,6 +37,6 @@ Supplementary data to
 | 7 | 200 | 3.76  | 0.68 | 2.04 | [lib_200_z_7.txt](data/lib_200_z_7.txt) | |
 | 7 | 250 | 3.98  | 0.66 | 1.91 | [lib_250_z_7.txt](data/lib_250_z_7.txt) | |
 
-<sup>A</sup> The complexity, or the average number of states per residue, of a fragments library is $|L|^{1/(f-3)}$ where $|L|$ is the library size and $f$ is the length of the fragments in the library.
+<sup>A</sup> The complexity, or the average number of states per residue, of a fragments library is *|L|<sup>1/(f-3)</sup>* where *|L|* is the library size and *f* is the length of the fragments in the library.
 
 <sup>B</sup> The average is taken over the approximations of the test set proteins.
